@@ -1,0 +1,81 @@
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+
+input {
+  width: 300px;
+  padding: .5rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+
+
+
+.heroes li:hover {
+  left: .1em;
+}
+
+
+
+.heroes a:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+}
+
+.heroes a:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.add-button {
+ padding: .5rem 1.5rem;
+ font-size: 1rem;
+ margin-bottom: 2rem;
+ background-color: rgb(226, 19, 192);
+ color:  white;
+}
+
+.add-button:hover {
+  color: white;
+  background-color: #db1790;
+}
+
+button.delete {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  background-color: white;
+  color:  black;
+  font-size: 1.1rem;
+  padding: 1px 10px 3px 10px;
+  text-align: right;
+}
+
+button.delete:hover {
+  background-color: red;
+  color: white;
+}
+
+
+
+.editStyle {
+  position: absolute;
+  left: 1400px;
+  top: 5px;
+  background-color: white;
+  color:  black;
+  font-size: 1.1rem;
+  padding: 1px 10px 3px 10px;
+}
+
+.editStyle:hover {
+  background-color: #525252;
+  color: white;
+}
+
+.textStyle{
+  text-align: center;
+}
